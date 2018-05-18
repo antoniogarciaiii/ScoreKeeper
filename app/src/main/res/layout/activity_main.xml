@@ -14,13 +14,13 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="4dp"
-            android:text="Red team"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:paddingBottom="4dp"
+            android:text="Red Team"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
 
         <TextView
             android:layout_width="match_parent"
@@ -42,11 +42,12 @@
                 android:text="-" />
 
             <TextView
+                android:id="@+id/redKOCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="24dp"
+                android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -74,23 +75,26 @@
                 android:text="-" />
 
             <TextView
+                android:id="@+id/RedKOdCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="24dp"
+                android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <Button
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:text="+" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="SDs"
             android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -104,23 +108,34 @@
                 android:text="-" />
 
             <TextView
+                android:id="@+id/RedSDCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="24dp"
+                android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <Button
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:text="+" />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:text="Score"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
         <TextView
             android:id="@+id/RedScore"
             android:layout_width="match_parent"
-            android:gravity="center"
             android:layout_height="wrap_content"
-            android:text="0"/>
+            android:gravity="center"
+            android:text="0"
+            android:textAppearance="@android:style/TextAppearance.Material.Display2" />
 
 
     </LinearLayout>
@@ -133,13 +148,13 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/TitleRedTeam"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="4dp"
-            android:text="Blue team"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:paddingBottom="4dp"
+            android:text="Blue Team"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
 
         <TextView
             android:layout_width="match_parent"
@@ -161,17 +176,100 @@
                 android:text="-" />
 
             <TextView
+                android:id="@+id/BlueKOCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="24dp"
+                android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <Button
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:text="+" />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KO'd"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/BlueKOdCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="0"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SDs"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/BlueSDCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="0"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:text="Score"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
+        <TextView
+            android:id="@+id/BlueScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textAppearance="@android:style/TextAppearance.Material.Display2" />
 
 
     </LinearLayout>
