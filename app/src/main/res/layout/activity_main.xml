@@ -20,14 +20,14 @@
             android:padding="4dp"
             android:paddingBottom="4dp"
             android:text="Red Team"
-            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="KO(s)"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="KO'd"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="SDs"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -127,7 +127,7 @@
             android:gravity="center"
             android:paddingTop="8dp"
             android:text="Score"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <TextView
             android:id="@+id/RedScore"
@@ -135,7 +135,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="0"
-            android:textAppearance="@android:style/TextAppearance.Material.Display2" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            android:textSize="36sp" />
 
 
     </LinearLayout>
@@ -154,14 +155,14 @@
             android:padding="4dp"
             android:paddingBottom="4dp"
             android:text="Blue Team"
-            android:textAppearance="@android:style/TextAppearance.Material.Display1" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="KO(s)"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -181,7 +182,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -194,7 +195,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="KO'd"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -214,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -227,7 +228,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="SDs"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -247,7 +248,7 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
             <Button
                 android:layout_width="48dp"
@@ -261,7 +262,7 @@
             android:gravity="center"
             android:paddingTop="8dp"
             android:text="Score"
-            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <TextView
             android:id="@+id/BlueScore"
@@ -269,7 +270,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="0"
-            android:textAppearance="@android:style/TextAppearance.Material.Display2" />
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            android:textSize="36sp" />
 
 
     </LinearLayout>
