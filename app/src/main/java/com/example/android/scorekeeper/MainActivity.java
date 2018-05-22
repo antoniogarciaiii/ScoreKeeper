@@ -6,7 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    //base code is derived from the Court Counter App we built in
+    //"Grow With Google Challenge Scholarship: Android Basics," Lesson 8
     //declaring variables. being verbose in my code because
     //I'm a student and I want to make my intentions and logic clear to the instructor
     int redScore = 0;
