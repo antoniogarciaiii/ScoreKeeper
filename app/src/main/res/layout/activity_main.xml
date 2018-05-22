@@ -187,7 +187,7 @@
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:onClick="blueKODecrease"
+                    android:onClick="subtractBlueKO"
                     android:text="-" />
 
                 <TextView
@@ -201,6 +201,7 @@
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
+                    android:onClick="addBlueKO"
                     android:text="+" />
             </LinearLayout>
 
@@ -221,6 +222,7 @@
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
+                    android:onClick="subtractBlueKod"
                     android:text="-" />
 
                 <TextView
@@ -234,6 +236,7 @@
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
+                    android:onClick="addBlueKOd"
                     android:text="+" />
             </LinearLayout>
 
@@ -254,6 +257,7 @@
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
+                    android:onClick="subtractBlueSD"
                     android:text="-" />
 
                 <TextView
@@ -267,6 +271,7 @@
                 <Button
                     android:layout_width="48dp"
                     android:layout_height="48dp"
+                    android:onClick="addBlueSD"
                     android:text="+" />
             </LinearLayout>
 
@@ -279,7 +284,7 @@
                 android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
             <TextView
-                android:id="@+id/BlueScore"
+                android:id="@+id/blue_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -300,6 +305,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="resetScores"
             android:text="RESET" />
     </LinearLayout>
 </LinearLayout>
