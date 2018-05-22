@@ -6,311 +6,311 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#DD8888"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:paddingBottom="4dp"
-                android:text="Red Team"
-                android:textAppearance="@android:style/TextAppearance.Holo.Large" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="KO(s)"
-                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="subtractRedKO"
-                    android:text="-" />
+                android:layout_weight="1"
+                android:background="#DD8888"
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/redKOCount"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="0"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="Red Team"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="KO(s)"
                     android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="addRedKO"
-                    android:text="+" />
-            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="KO'd"
-                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="subtractRedKO"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/redKOCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="0"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="addRedKO"
+                        android:text="+" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="KO'd"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="subtractRedKod"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/RedKOdCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="0"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="addRedKOd"
+                        android:text="+" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SDs"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="subtractRedSD"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/RedSDCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="0"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="addRedSD"
+                        android:text="+" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="Score"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+                <TextView
+                    android:id="@+id/red_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textSize="36sp" />
+
+
+            </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="subtractRedKod"
-                    android:text="-" />
+                android:layout_weight="1"
+                android:background="#8888DD"
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/RedKOdCount"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="0"
-                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="addRedKOd"
-                    android:text="+" />
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="SDs"
-                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="subtractRedSD"
-                    android:text="-" />
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="Blue Team"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large" />
 
                 <TextView
-                    android:id="@+id/RedSDCount"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="0"
+                    android:gravity="center"
+                    android:text="KO(s)"
                     android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="addRedSD"
-                    android:text="+" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="subtractBlueKO"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/BlueKOCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="0"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="addBlueKO"
+                        android:text="+" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="KO'd"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="subtractBlueKod"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/BlueKOdCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="0"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="addBlueKOd"
+                        android:text="+" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SDs"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="subtractBlueSD"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/BlueSDCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="0"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+                    <Button
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:onClick="addBlueSD"
+                        android:text="+" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="Score"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+                <TextView
+                    android:id="@+id/blue_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Large"
+                    android:textSize="36sp" />
+
             </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="Score"
-                android:textAppearance="@android:style/TextAppearance.Holo.Large" />
-
-            <TextView
-                android:id="@+id/red_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Holo.Large"
-                android:textSize="36sp" />
-
-
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#8888DD"
-            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            tools:background="#CCCCCC">
 
-            <TextView
-                android:layout_width="match_parent"
+            <Button
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4dp"
-                android:paddingBottom="4dp"
-                android:text="Blue Team"
-                android:textAppearance="@android:style/TextAppearance.Holo.Large" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="KO(s)"
-                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="subtractBlueKO"
-                    android:text="-" />
-
-                <TextView
-                    android:id="@+id/BlueKOCount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="0"
-                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="addBlueKO"
-                    android:text="+" />
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="KO'd"
-                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="subtractBlueKod"
-                    android:text="-" />
-
-                <TextView
-                    android:id="@+id/BlueKOdCount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="0"
-                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="addBlueKOd"
-                    android:text="+" />
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="SDs"
-                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="subtractBlueSD"
-                    android:text="-" />
-
-                <TextView
-                    android:id="@+id/BlueSDCount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="0"
-                    android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
-
-                <Button
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:onClick="addBlueSD"
-                    android:text="+" />
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="Score"
-                android:textAppearance="@android:style/TextAppearance.Holo.Large" />
-
-            <TextView
-                android:id="@+id/blue_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="0"
-                android:textAppearance="@android:style/TextAppearance.Holo.Large"
-                android:textSize="36sp" />
-
+                android:onClick="resetScores"
+                android:text="RESET" />
         </LinearLayout>
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        tools:background="#CCCCCC">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="resetScores"
-            android:text="RESET" />
-    </LinearLayout>
-</LinearLayout>
 </ScrollView>
